@@ -25,4 +25,4 @@ A competition-ready robot designed for the **Tread-O-Quest Challenge**, capable 
 2. Calibrate IR sensors using the potentiometer.
 3. Place the robot on the track and press the start button.
 
-[Full Documentation](Documentation/Project_ Report.pdf)
+[Full Documentation](Documentation/Project_Report.pdf)
