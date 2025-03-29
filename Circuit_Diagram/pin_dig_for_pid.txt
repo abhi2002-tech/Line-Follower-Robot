@@ -1,0 +1,31 @@
++-----------------------------+
+|        Arduino Uno /nano         |
+|                             |
+| D3  <---- Button (GND)      |
+| D4  ----> L298N IN1         |
+| D5  ----> L298N IN2         |
+| D6  ----> L298N IN3         |
+| D7  ----> L298N IN4         |
+| D8  ----> L298N ENA (PWM)   |
+| D9  ----> L298N ENB (PWM)   |
+| D10 ----> Red LED (+ Res)   |
+| D11 ----> Green LED (+ Res) |
+| D12 <---- Left Obstacle IR  |
+| D13 <---- Right Obstacle IR |
+| A0  <---- Line IR 1         |
+| A1  <---- Line IR 2         |
+| A2  <---- Line IR 3         |
+| A3  <---- Line IR 4         |
+| A4  <---- Line IR 5         |
+| A5  <---- Potentiometer     |
++-----------------------------+
+        ||          
+        ||          
++-----------------------------+
+|        L298N Motor Driver   |
+|                             |
+| IN1/IN2 --> Left Motor      |
+| IN3/IN4 --> Right Motor     |
+| ENA/ENB --> PWM from Arduino|
+| VCC/GND --> External 9V     |
++-----------------------------+
